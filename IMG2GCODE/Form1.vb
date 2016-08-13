@@ -77,20 +77,18 @@
                     XCounter = 0
                     For scanrow = 0 To scanrows - 1
                         Dim col As Color = myBitmap.GetPixel(scanrow, scanline)
-                        currentPower = col.GetBrightness * 0.255
+                        currentPower = col.GetBrightness * 0.0255
                         powerDiff = currentPower - previousPower
                         If powerDiff <> 0 Then
                             outLineCount += 10
                             output += "N" + CStr(outLineCount) + "G01X" + Format(XCounter, "0.000")
                             Select Case OutputAxis
                                 Case "S"
-                                    output += "S" + Format(currentPower * 1000, "0") + vbCrLf
+                                    output += "S" + Format(currentPower * 10000, "0") + vbCrLf
                                 Case "A", "B", "C"
                                     outLineCount += 10
-                                    output += "N" + CStr(outLineCount) + "G01" + OutputAxis + Format(powerDiff, "0.000") + vbCrLf
+                                    output += "N" + CStr(outLineCount) + "G01" + OutputAxis + Format(powerDiff, "0.0000") + vbCrLf
                             End Select
-
-
                             XCounter = 0
                         End If
                         XCounter += dotsize
@@ -100,27 +98,26 @@
                     output += "N" + CStr(outLineCount) + "G01X" + Format(XCounter, "0.000")
                     Select Case OutputAxis
                         Case "S"
-                            output += "S" + Format(currentPower * 1000, "0") + vbCrLf
+                            output += "S" + Format(currentPower * 10000, "0") + vbCrLf
                         Case "A", "B", "C"
                             outLineCount += 10
-                            output += "N" + CStr(outLineCount) + "G01" + OutputAxis + "0.000" + vbCrLf
+                            output += "N" + CStr(outLineCount) + "G01" + OutputAxis + "0.0000" + vbCrLf
                     End Select
                     GoRight = False
                 Case False 'right to left
                     XCounter = 0
                     For scanrow = 0 To scanrows - 1
                         Dim col As Color = myBitmap.GetPixel(scanrow, scanline)
-                        currentPower = col.GetBrightness * 0.255
+                        currentPower = col.GetBrightness * 0.0255
                         powerDiff = currentPower - previousPower
                         If powerDiff <> 0 Then
                             outLineCount += 10
                             output += "N" + CStr(outLineCount) + "G01X" + Format(XCounter, "0.000")
                             Select Case OutputAxis
                                 Case "S"
-                                    output += "S" + Format(currentPower * 1000, "0") + vbCrLf
+                                    output += "S" + Format(currentPower * 10000, "0") + vbCrLf
                                 Case "A", "B", "C"
-                                    outLineCount += 10
-                                    output += "N" + CStr(outLineCount) + "G01" + OutputAxis + Format(powerDiff, "0.000") + vbCrLf
+                                    output += OutputAxis + Format(powerDiff, "0.0000") + vbCrLf
                             End Select
 
 
@@ -133,10 +130,9 @@
                     output += "N" + CStr(outLineCount) + "G01X" + Format(XCounter, "0.000")
                     Select Case OutputAxis
                         Case "S"
-                            output += "S" + Format(currentPower * 1000, "0") + vbCrLf
+                            output += "S" + Format(currentPower * 10000, "0") + vbCrLf
                         Case "A", "B", "C"
-                            outLineCount += 10
-                            output += "N" + CStr(outLineCount) + "G01" + OutputAxis + "0.000" + vbCrLf
+                            output += OutputAxis + "0.0000" + vbCrLf
                     End Select
                     GoRight = True
             End Select
@@ -146,8 +142,7 @@
                 Case "S"
                     output += "S0" + vbCrLf
                 Case "A", "B", "C"
-                    outLineCount += 10
-                    output += "N" + CStr(outLineCount) + "G01" + OutputAxis + "0.000" + vbCrLf
+                    output += OutputAxis + "0.0000" + vbCrLf
             End Select
 
 
