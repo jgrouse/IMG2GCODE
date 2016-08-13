@@ -1,0 +1,20 @@
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\bin\Debug\IMG2GCODE.exe.config
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\bin\Debug\IMG2GCODE.exe
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\bin\Debug\IMG2GCODE.pdb
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\bin\Debug\IMG2GCODE.xml
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\obj\Debug\IMG2GCODE.Form1.resources
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\obj\Debug\IMG2GCODE.Resources.resources
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\obj\Debug\IMG2GCODE.vbproj.GenerateResource.Cache
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\obj\Debug\IMG2GCODE.exe
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\obj\Debug\IMG2GCODE.xml
+C:\Users\John Grouse\AppData\Local\Temporary Projects\IMG2GCODE\obj\Debug\IMG2GCODE.pdb
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\bin\Debug\IMG2GCODE.exe.config
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\obj\Debug\IMG2GCODE.exe
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\obj\Debug\IMG2GCODE.xml
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\obj\Debug\IMG2GCODE.pdb
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\bin\Debug\IMG2GCODE.exe
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\bin\Debug\IMG2GCODE.pdb
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\bin\Debug\IMG2GCODE.xml
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\obj\Debug\IMG2GCODE.Form1.resources
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\obj\Debug\IMG2GCODE.Resources.resources
+F:\John Grouse\Documents\Visual Studio 2013\Projects\IMG2GCODE\IMG2GCODE\obj\Debug\IMG2GCODE.vbproj.GenerateResource.Cache
